@@ -1,0 +1,140 @@
+/*
+    -------------------------------------------------------------------------------
+
+    * Template Name: ElonMude Template
+    * Template URI: 
+    * Author: Echafiai Youssef
+    * Author URI: https://themeforest.net/user/EchafiaiStudio/portfolio
+    * Description: ElonMude - Personal Blog & Magazine WordPress Template
+    * Version: 1.0
+    * License: GPL v2 or later
+    * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+    * Tags: blog, clean, creative, magazine, minimal, personal
+
+    -------------------------------------------------------------------------------
+*/
+
+/*
+    -------------------------------------------------------------------------------
+
+    * 01. Start Page About Me
+    * 02. End
+
+    -------------------------------------------------------------------------------
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  01 - Start Page About Me
+/*-----------------------------------------------------------------------------------*/
+
+.about-me {
+    position: relative;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    width: 100%;
+    float: right;
+}
+
+.about-me img {
+    transition: all 0.5s ease 0s;
+    object-position: center;
+    margin-bottom: 30px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.about-me img:hover {
+    opacity: .5;
+}
+
+.about-me p {
+    line-height: 2;
+    color: #444;
+    font-size: 13px;
+}
+
+blockquote {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 30px 30px;
+    border-left: 5px solid #eee;
+    background: #fafafa;
+}
+
+
+.form-add-msg {
+    padding: 28px 0;
+}
+
+.form-add-msg label {
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #444;
+}
+
+.form-add-msg textarea {
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    border-radius: 0;
+    background: transparent;
+    min-height: 190px;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.form-add-msg textarea:hover,
+.form-add-msg textarea:active,
+.form-add-msg textarea:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.form-add-msg input {
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    border-radius: 0;
+    background: transparent;
+    outline: 0;
+}
+
+.form-add-msg input:active,
+.form-add-msg input:hover,
+.form-add-msg input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.form-add-msg small {
+    margin-top: 8px;
+    text-transform: capitalize;
+}
+
+.form-add-msg .col-6 {
+    display: inline-block;
+}
+
+.form-add-msg .col-6:nth-of-type(2) {
+    padding-left: 0;
+}
+
+.form-add-msg .col-6:nth-of-type(3) {
+    float: right;
+    position: absolute;
+}
+
+.form-add-msg button {
+    border-radius: 0;
+    padding: 6px 30px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.form-add-msg button:hover,
+.form-add-msg button:active,
+.form-add-msg button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  02 - End *
+/*-----------------------------------------------------------------------------------*/

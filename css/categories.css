@@ -1,0 +1,121 @@
+/*
+    -------------------------------------------------------------------------------
+
+    * Template Name: ElonMude Template
+    * Template URI: 
+    * Author: Echafiai Youssef
+    * Author URI: https://themeforest.net/user/EchafiaiStudio/portfolio
+    * Description: ElonMude - Personal Blog & Magazine WordPress Template
+    * Version: 1.0
+    * License: GPL v2 or later
+    * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+    * Tags: blog, clean, creative, magazine, minimal, personal
+
+    -------------------------------------------------------------------------------
+*/
+
+/*
+    -------------------------------------------------------------------------------
+
+    * 01. Start Section Slideshow
+    * 02. End *
+
+    -------------------------------------------------------------------------------
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  01 - Start Section Posts By Categories
+/*-----------------------------------------------------------------------------------*/
+
+.categories-page {
+    position: relative;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    width: 100%;
+    float: right;
+    padding: 111px 80px;
+    padding-bottom: 108px;
+}
+
+.fds-post-items .post-container {
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 34px;
+    line-height: 3;
+}
+
+.fds-post-items .meta-post-container p {
+    display: inline-block;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.post-format-article-img img {
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    -webkit-transition-timing-function: linear;
+    transition: all .7s;
+    transition-timing-function: linear;
+    -webkit-clip-path: inset(0 0);
+    clip-path: inset(0 0);
+}
+
+.post-format-article-img img:hover {
+    -webkit-clip-path: inset(20px 15px);
+    clip-path: inset(20px 15px);
+    opacity: .75;
+    transform: scale(1.05);
+}
+
+.fds-post-items .posts-info-fds h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    width: 70%;
+}
+
+.post-container .line-before {
+    margin: 0;
+    position: absolute;
+    border: 0;
+    width: 75%;
+    height: 2px;
+    background: #404040;
+    margin-top: 25px;
+}
+
+.posts-info-fds .meta-post-container p {
+    display: inline-block;
+}
+
+.pagination-numbering {
+    padding-top: 50px;
+}
+
+.pagination-numbering li.page-item {
+    margin-left: 20px;
+}
+
+.pagination-numbering li.page-item a {
+    transition: all 0.5s ease 0s;
+    padding: 6px 13px;
+    border-radius: 0 !important;
+    border: 1px solid #eee;
+    color: #404040;
+}
+
+.pagination-numbering li.page-item a:focus,
+.pagination-numbering li.page-item a:active,
+.pagination-numbering li.page-item a:hover {
+    border: 1px solid #C69F73;
+    background: transparent;
+    box-shadow: 0 0 0 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  02 - End *
+/*-----------------------------------------------------------------------------------*/

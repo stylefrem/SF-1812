@@ -1,0 +1,495 @@
+/*
+    -------------------------------------------------------------------------------
+
+    * Template Name: ElonMude Template
+    * Template URI: 
+    * Author: Echafiai Youssef
+    * Author URI: https://themeforest.net/user/EchafiaiStudio/portfolio
+    * Description: ElonMude - Personal Blog & Magazine WordPress Template
+    * Version: 1.0
+    * License: GPL v2 or later
+    * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+    * Tags: blog, clean, creative, magazine, minimal, personal
+
+    -------------------------------------------------------------------------------
+*/
+
+/*
+    -------------------------------------------------------------------------------
+
+    * 01. Start GLOBAL CSS Style
+    * 02. Start Single Demo 1
+
+
+    -------------------------------------------------------------------------------
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  01 - Start GENERAL STYLING
+/*-----------------------------------------------------------------------------------*/
+
+.latest-posts {
+    padding-top: 137px;
+    padding-bottom: 121px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  02 - Start Single Demo 1
+/*-----------------------------------------------------------------------------------*/
+
+.single-post.single-demo-1 {
+    position: relative;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    width: 100%;
+    float: right;
+    height: 75vh;
+    overflow: hidden;
+}
+
+.single-post.single-demo-1 .overlay-single-post-d1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.26);
+}
+
+.single-post.single-demo-1 .container-fluid {
+    padding: 0;
+}
+
+.single-post.single-demo-1 .single-info-posts-head {
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-bottom: 17px;
+}
+
+.single-post.single-demo-1 .post-metainfo {
+    margin-top: 15px;
+}
+
+.single-post.single-demo-1 .single-info-posts-head img {
+    transition: all 0.5s ease 0s;
+    border-radius: 50px;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.single-post.single-demo-1 .single-info-posts-head h2 {
+    font-family: 'Playfair Display', serif;
+    width: 50%;
+    margin: auto;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.single-post.single-demo-1 .single-info-posts-head .post-metainfo p {
+    display: inline;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.single-post.single-demo-1 .post-metainfo a {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.single-post.single-demo-1 .single-bg-posts-head {
+    height: 75vh;
+    width: 100%;
+}
+
+.single-post.single-demo-1 .single-bg-posts-head img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  03 - Start Blog Page
+/*-----------------------------------------------------------------------------------*/
+
+.blog-page {
+    position: relative;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    width: 100%;
+    float: right;
+    padding-bottom: 135px;
+}
+
+.blog-page .blog-center img {
+    transition: all 0.5s ease 0s;
+    object-position: center;
+    margin-bottom: 30px;
+    object-fit: cover;
+    max-height: 535px;
+    min-height: 450px;
+    border-radius: 3px;
+}
+
+.blog-page .blog-center img:hover {
+    opacity: .5;
+}
+
+.blog-page .blog-center h2 {
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    width: 70%;
+    line-height: 1.8;
+}
+
+.blog-page .blog-center p {
+    line-height: 2;
+    color: #444;
+    font-size: 13px;
+}
+
+.blog-page .blog-center blockquote {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 30px 30px;
+    border-left: 5px solid #eee;
+    background: #fafafa;
+}
+
+.blog-page .blog-center hr {
+    width: 5px;
+    height: 5px;
+    background: #ccc;
+    margin: 40px auto;
+    border-radius: 50px;
+    border: 0;
+}
+
+.blog-page .blog-center hr:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #ccc;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+.blog-page .blog-center hr:after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #ccc;
+    margin-left: -30px;
+    border-radius: 100%;
+}
+
+.blog-page .blog-center p strong,
+.blog-page .blog-center p b {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.blog-page .blog-center ol,
+.blog-page .blog-center ul {
+    margin: 35px 25px;
+}
+
+.blog-page .blog-center ol li,
+.blog-page .blog-center ul li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    letter-spacing: .9px;
+    font-size: 14px;
+    margin: 13px;
+}
+
+.blog-page .blog-center .single-tags {
+    display: inline-flex;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.blog-page .blog-center .single-tags .icon {
+    margin-right: 14px;
+    margin-top: 4px;
+}
+
+.single-share-post {
+    margin-top: 30px;
+}
+
+.single-share-post p {
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+.single-share-post p.title-Share {
+    transition: all 0.5s ease 0s;
+    background: transparent;
+    border: 1px solid #eee;
+    padding: 4px 20px;
+}
+
+.single-share-post p.title-Share:hover {
+    border: 1px solid #C69F73;
+}
+
+.single-share-post p a {
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    color: #404040;
+}
+
+.single-share-post p a:hover {
+    color: #C69F73
+}
+
+.single-author-post .col-author-post {
+    text-align: center;
+}
+
+.single-author-post .col-author-post img {
+    border-radius: 25px;
+    height: 50px !important;
+    width: 50px !important;
+    max-height: 50px;
+    min-height: 50px;
+    margin-top: 10px;
+}
+
+.single-author-post {
+    margin-top: 35px;
+    border: 1px solid #eee;
+    padding: 27px 10px;
+    padding-top: 50px;
+}
+
+.col-info-author-post p {
+    text-transform: capitalize;
+}
+
+.col-info-author-post h3 {
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1.1px;
+}
+
+.col-info-des-author-post {
+    margin-top: 10px;
+}
+
+.single-next-post {
+    margin-top: 35px;
+    border: 1px solid #eee;
+    padding: 30px 65px;
+    padding-top: 41px;
+    padding-bottom: 25px;
+}
+
+.blog-page .blog-center .items-single-next-post p {
+    text-transform: capitalize;
+}
+
+.blog-page .blog-center .items-single-next-post p a {
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    font-size: 17px;
+    color: #404040;
+}
+
+.blog-page .blog-center .items-single-next-post p a:hover {
+    color: #C69F73;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  04 - Start Comments Reply
+/*-----------------------------------------------------------------------------------*/
+
+.thecomment {
+    position: relative;
+    overflow: hidden;
+    padding: 54px 15px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 43px;
+}
+
+.comments-reply {
+    background: #f7f7f7;
+    position: relative;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    width: 100%;
+    float: right;
+    padding-top: 40px;
+}
+
+.comments-reply .post-related-title {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    text-align: center;
+    height: 21px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.comments-reply .post-related-title h2 {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 0 20px;
+    background: #f7f7f7;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.thecomment .author-img {
+    -ms-flex: 0 0 15%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    float: left;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    margin-top: 0px;
+}
+
+.thecomment .author-img img {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+.thecomment .comment-text {
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+    float: right;
+}
+
+.thecomment  .author {
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1.1px;
+    margin-right: 4%;
+}
+
+.thecomment .comment-text p {
+    line-height: 2;
+    margin-top: 16px;
+    width: 90%;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.thecomment .comment-text .date {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9c7729;
+}
+
+.thecomment .comment-text .reply a {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #9c7729;
+    letter-spacing: 1px;
+}
+
+.form-add-comments {
+    padding: 28px 0;
+}
+
+.form-add-comments label {
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #444;
+}
+
+.form-add-comments textarea {
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    border-radius: 0;
+    background: transparent;
+    min-height: 190px;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.form-add-comments textarea:hover,
+.form-add-comments textarea:active,
+.form-add-comments textarea:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.form-add-comments input {
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    border-radius: 0;
+    background: transparent;
+    outline: 0;
+}
+
+.form-add-comments input:active,
+.form-add-comments input:hover,
+.form-add-comments input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.form-add-comments small {
+    margin-top: 8px;
+    text-transform: capitalize;
+}
+
+.form-add-comments .col-6 {
+    display: inline-block;
+}
+
+.form-add-comments .col-6:nth-of-type(2) {
+    padding-left: 0;
+}
+
+.form-add-comments .col-6:nth-of-type(3) {
+    float: right;
+    position: absolute;
+}
+
+.form-add-comments button {
+    border-radius: 0;
+    padding: 6px 30px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.form-add-comments button:hover,
+.form-add-comments button:active,
+.form-add-comments button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+
+
+
+

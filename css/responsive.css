@@ -1,0 +1,387 @@
+/* 
+    -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *  
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *  
+ *  It's divided to the following sections:
+ *  
+ *     |
+       |-->   - Width between 1200px to 0
+       |-->   - Width between 767px to 0
+
+    -------------------------------------------------------------------------------
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start GLOBAL CSS Style Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1065px) {
+    
+    /* Start Change Section Width **/
+
+    .fds-post-grid,
+    .home-banner,
+    .trending,
+    .subscribeletter,
+    .latest-posts,
+    .instagram-olu,
+    .footer {
+        position: relative;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        float: right;
+    }
+    
+    /* Start Change Line Width **/
+    
+    hr.line-width-int,
+    hr.line-width-ft {
+        position: relative;
+        -ms-flex: 0 0 90.5%;
+        flex: 0 0 90.5%;
+        max-width: 90.5%;
+        width: 90.5%;
+        float: right;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .nav-menu {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        left: 0;
+    }
+    
+    .single-post.single-demo-1,
+    .main-page-demo-1, 
+    .main-page-demo-2,
+    .main-page-demo-3,
+    .categories-page,
+    .about-me, 
+    .page-404,
+    .blog-page,
+    .comments-reply {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+
+    .col-lft-bdr {
+        border: 0;
+        border-top: 1px solid #eee;
+        padding-top: 35px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .categories-page,
+    .main-page-demo-1,
+    .main-page-demo-2,
+    .main-page-demo-3 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    .title-section h2 {
+        font-size: 35px;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Header Menu
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1065px) {
+
+    .header {
+        background: black;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        color: white;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        float: none;
+        z-index: 9;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+    }
+    
+    .header .open-navigation {
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding-right: 25px;
+    }
+    
+    .header .open-navigation i.icon {
+        font-size: 22px;
+        cursor: pointer;
+        color: #f1d37dcc;
+        border: 1px solid #eee;
+        padding: 15px;
+        border-radius: 35px;
+    }
+
+    .header .footer-head {
+        transform: rotate(-90deg);
+        position: absolute;
+        bottom: 8px;
+    }
+
+    .header .footer-head p {
+        font-family: 'Raleway', sans-serif;
+        color: #404040;
+        font-size: 13px;
+        margin-top: 3px;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Header Slideshow
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1065px) {
+    
+    .slideshow {
+        position: relative;
+        -ms-flex: 0 0 90%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        float: none;
+        color: white;
+        height: 100vh;
+    }
+
+    .slideshow .container-fluid {
+        display: none;
+    }
+    
+    .slide-demo .all-slideshow {
+        height: 100vh;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+
+    .slideshow  h2 {
+        font-size: 48px !important;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .slideshow  h2 {
+        font-size: 40px !important;
+    }
+    
+    .slideshow p {
+        width: 13px !important;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .slideshow h2,
+    .slideshow p {
+        width: 85% !important;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Home Banner
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1100px) {
+
+    .home-banner .items-home-banner h2 {
+        font-size: 45px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+
+    .home-banner .items-home-banner h2 {
+        font-size: 35px;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Section Trending 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+    
+    .trending .container-fluid .row .col-trending:first-child {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .trending .container-fluid .row .col-trending:nth-child(2),
+    .trending .container-fluid .row .col-trending:nth-child(3) {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+}
+
+
+@media (max-width: 500px) {
+    
+    .trending .container-fluid .row .col-trending:first-child {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .trending .container-fluid .row .col-trending:nth-child(2),
+    .trending .container-fluid .row .col-trending:nth-child(3) {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Subscribeletter
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1100px) {
+
+    .subscribeletter .container-fluid .items-subscribeletter h2 {
+        font-size: 45px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+
+    .subscribeletter .container-fluid .items-subscribeletter h2 {
+        font-size: 35px;
+    }
+    
+    .subscribeletter .container-fluid .items-subscribeletter p {
+        width: 60%;
+        margin: auto;
+        line-height: 2;
+    }
+    
+}
+
+@media (max-width: 690px) {
+
+    .subscribeletter .container-fluid .items-subscribeletter p {
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .subscribeletter .container-fluid .items-subscribeletter .input-group {
+        width: 50%;
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Single Page
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .single-post.single-demo-1 .single-info-posts-head h2 {
+        font-size: 39px !important;
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .single-post.single-demo-1 .single-info-posts-head h2 {
+        font-size: 35px !important;
+    }
+    
+    .single-post.single-demo-1 .post-metainfo {
+        display: none
+    }
+    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Categories Page
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 911px) {
+
+    .fds-post-items .posts-info-fds h3 {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    
+    .categories-page .title-section {
+        margin-top: 65px;
+    }
+    
+    .pagination-numbering {
+        padding-bottom: 57px;
+    }
+    
+    .categories-page {
+        padding: 51px 80px;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Demo 2 Page
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .post-format-article-img img {
+        height: 290px;
+    }
+        
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  End *
+/*-----------------------------------------------------------------------------------*/

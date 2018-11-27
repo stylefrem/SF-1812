@@ -1,0 +1,180 @@
+/*
+    -------------------------------------------------------------------------------
+
+    * Template Name: ElonMude Template
+    * Template URI: 
+    * Author: Echafiai Youssef
+    * Author URI: https://themeforest.net/user/EchafiaiStudio/portfolio
+    * Description: ElonMude - Personal Blog & Magazine WordPress Template
+    * Version: 1.0
+    * License: GPL v2 or later
+    * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+    * Tags: blog, clean, creative, magazine, minimal, personal
+
+    -------------------------------------------------------------------------------
+*/
+
+/*
+    -------------------------------------------------------------------------------
+
+    * 01. Start Cat Section Area 1
+    * 02. Start Main Section Area 
+    * 03. End *
+
+    -------------------------------------------------------------------------------
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  01 - Start Cat Section Area 1
+/*-----------------------------------------------------------------------------------*/
+
+.col-cat-section-area-1 {
+    color: #444;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-cat-in-section-area-1 {
+    padding-top: 30px;
+}
+
+.col-cat-in-section-area-1 .meta-post-containeri-in-area-1 p {
+    display: inline-block;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.meta-post-containeri-in-area-1 {
+    display: none;
+}
+
+.col-cat-in-section-area-1 h5 {
+    font-size: 14px;
+    line-height: 2;
+    text-transform: capitalize;
+    color: #36363a;
+}
+
+.col-cat-img-in-section-area-1 img {
+    height: 145px;
+    border-radius: 5px;
+    -webkit-transition: all .2s;
+    -webkit-transition-timing-function: linear;
+    transition: all .7s;
+    transition-timing-function: linear;
+    -webkit-clip-path: inset(0 0);
+    clip-path: inset(0 0);
+}
+
+.col-cat-img-in-section-area-1 img:hover {
+    -webkit-clip-path: inset(10px 5px);
+    clip-path: inset(10px 5px);
+    opacity: .75;
+    transform: scale(1.05);
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  02 - Start Main Section Area 
+/*-----------------------------------------------------------------------------------*/
+
+.main-page-demo-3 {
+    position: relative;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    width: 100%;
+    float: right;
+    padding: 125px 80px;
+    padding-bottom: 69px;
+}
+
+.main-page-demo-3 .col-right-area-2 {
+    margin-top: 0;
+}
+
+.main-page-demo-3 .col-left-area-2 .col-fds-post {
+    display: inline-block;
+    float: left;
+}
+
+.main-page-demo-3 .post-container {
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 3;
+}
+
+.main-page-demo-3 .line-before-posts {
+    width: 15%;
+    position: absolute;
+    overflow: hidden;
+    height: 50px;
+}
+
+.main-page-demo-3 .post-container .line-before {
+    margin: 0;
+    position: absolute;
+    border: 0;
+    width: 75%;
+    height: 2px;
+    background: #404040;
+    margin-top: 25px;
+}
+
+.main-page-demo-3 .post-container .meta-post-container p {
+    display: inline-block;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.main-page-demo-3 .posts-info-fds h3 {
+    font-size: 17px;
+    line-height: 1.7;
+    text-transform: capitalize;
+    color: #36363a;
+}
+
+#back-mg {
+    animation: dude_03 .75s 1 forwards;
+}
+
+@keyframes dude_03 {
+
+    0% {
+        margin-left: 10px;
+    }
+    
+    100% {
+        margin-left: 0;
+    }
+
+}
+
+.post-format-article-img img {
+    cursor: pointer;
+    height: 270px;
+    -webkit-transition: all .2s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: all .7s;
+    transition-timing-function: linear;
+    -webkit-clip-path: inset(0 0);  
+      clip-path: inset(0 0);  
+}
+
+.post-format-article-img img:hover {
+    -webkit-clip-path: inset(20px 15px);
+    clip-path: inset(20px 15px);
+    opacity: .75;
+    transform: scale(1.05);
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  03 - End *
+/*-----------------------------------------------------------------------------------*/
